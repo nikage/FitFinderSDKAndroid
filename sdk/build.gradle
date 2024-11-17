@@ -4,13 +4,22 @@ plugins {
 }
 
 android {
-    namespace = "com.fitfinder.sdk" // Add the namespace for the SDK module
+    namespace = "com.fitfinder.sdk"
     compileSdk 33
 
     defaultConfig {
         minSdk 21
         targetSdk 33
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     testOptions {
