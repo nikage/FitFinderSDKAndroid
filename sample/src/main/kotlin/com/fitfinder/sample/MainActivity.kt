@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
             if (height != null && weight != null) {
                 val recommendedSize = FitFinder.recommendSize(height, weight)
-                resultText.text = "Your Recommended Size: "
+
+                resultText.text = "Your Recommended Size: $recommendedSize"
             } else {
                 resultText.text = "Please enter valid height and weight!"
             }

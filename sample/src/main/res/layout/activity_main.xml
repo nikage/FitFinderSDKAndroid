@@ -12,6 +12,7 @@
         android:text="Find Your Perfect Fit"
         android:textSize="20sp"
         android:layout_gravity="center"
+        android:layout_marginTop="16dp"
         android:paddingBottom="16dp" />
 
     <EditText
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="Get Size Recommendation"
         android:layout_gravity="center"
-        android:marginTop="16dp" />
+        android:layout_marginTop="16dp" /> <!-- Corrected attribute -->
 
     <TextView
         android:id="@+id/resultText"
