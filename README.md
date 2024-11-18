@@ -19,8 +19,14 @@ The **FitFinder SDK** provides a lightweight and efficient way to recommend clot
    Example: Add as a module or dependency in your `build.gradle` file.
 
    ```gradle
-   implementation 'com.fitfinder.sdk:fitfinder:1.0.0'
+   implementation "com.github.nikage:fitfindersdkandroid:1.0.0"
    ```
+   
+   ```kotlin
+   implementation("com.github.nikage:fitfindersdkandroid:1.0.0")
+   ```
+   
+
 
 2. Sync your project with Gradle files.
 
