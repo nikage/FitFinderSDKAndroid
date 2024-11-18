@@ -1,0 +1,8 @@
+jdk:
+  - openjdk11
+
+build:
+  verbose: true
+
+install:
+  - ./gradlew clean assemble
