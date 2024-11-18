@@ -4,5 +4,8 @@ jdk:
 build:
   verbose: true
 
+environment:
+  JAVA_HOME_OVERRIDE: /usr/lib/jvm/java-17
+
 install:
   - ./gradlew clean assemble
