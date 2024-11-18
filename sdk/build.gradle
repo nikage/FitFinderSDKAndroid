@@ -64,8 +64,8 @@ publishing {
                 from components.release
             }
 
-            groupId = "com.fitfinder.sdk"
-            artifactId = "sdk"
+            groupId = 'com.github.nikage.fitfindersdkandroid'
+            artifactId = 'sdk'
 
 
             def versionPropsFile = file("$rootDir/version.properties")

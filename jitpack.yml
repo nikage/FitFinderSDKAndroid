@@ -1,6 +1,7 @@
 artifacts:
+  name: sdk
   paths:
-    - '**/build/outputs/**/*.aar'
+    - sdk/build/outputs/aar/sdk-release.aar
 
 jdk:
   - openjdk17
