@@ -104,3 +104,5 @@ The SDK uses BMI ranges to determine sizes:
 - Android API Level 21+ (Android 5.0 Lollipop or higher)
 - Kotlin 1.5+
 
+## See Also
+https://github.com/nikage/FitFinderSDKIOS - FitFinder SDK for iOS
