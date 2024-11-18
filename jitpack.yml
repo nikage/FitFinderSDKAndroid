@@ -1,6 +1,6 @@
 artifacts:
   paths:
-    - sdk/build/outputs/aar/sdk-release.aar
+    - '**/build/outputs/**/*.aar'
 
 jdk:
   - openjdk17
@@ -10,3 +10,4 @@ build:
 
 install:
   - ./gradlew clean assemble
+  - ls -R sdk/build/outputs/aar/
