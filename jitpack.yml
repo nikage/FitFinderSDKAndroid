@@ -11,3 +11,4 @@ build:
 install:
   - ./gradlew clean assemble
   - ls -R sdk/build/outputs/aar/
+  - ./gradlew publishToMavenLocal
